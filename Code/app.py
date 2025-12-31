@@ -41,8 +41,8 @@ def transform_text(text):
     return " ".join(y)
 
 
-vectorizer = pickle.load(open('/home/dhruv/Desktop/ZTM_ML/ML_Project/Code/vectorizer.pkl', 'rb'))
-model = pickle.load(open('/home/dhruv/Desktop/ZTM_ML/ML_Project/Code/model.pkl', 'rb'))
+vectorizer = pickle.load(open('Code/vectorizer.pkl', 'rb'))
+model = pickle.load(open('Code/model.pkl', 'rb'))
 
 st.title("Email / SMS Spam Classifier")
 
